@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>developing the portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: rgb(4, 4, 50);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(9, 9, 138);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(93, 93, 204);
+            font-size: 1.04rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 35px 40px;
+        }
+
+        .firstsection>div {
+            width: 40%;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+            margin: 80px 80px;
+        }
+
+        .rightsection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: purple;
+        }
+
+        #element {
+            color: purple;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        main hr {
+            border: 0;
+            background: white;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+
+        }
+
+        .secondsection .vertical {
+            width: 1px;
+            background-color: white;
+            height: 93px;
+            margin: 0 95px;
+        }
+
+        .image-pop {
+            width: 23px;
+            top: -32px;
+            left: -9px;
+            position: relative;
+        }
+
+        .verticle-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 20px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        footer {
+            background-color: rgb(8, 1, 26);
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        .text-center {
+            text-align: center;
+            color: gray;
+            padding: 12px;
+        }
+
+        .btn {
+            padding: 8px;
+            background-color: #182664;
+            color: white;
+            border-radius: 15px;
+            font-size: 15px;
+            cursor: pointer;
+            border: 2px solid white;
+            margin: 23px 12px;
+        }
+
+        .buttons {
+            padding: 12px;
+        }
+
+        .Thirdsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 60vh;
+        }
+
+        .Thirdsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .Fourthsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 50vh;
+        }
+
+        .Fourthsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .Fifthsection{
+            max-width: 80vw;
+            margin: auto;
+            height: 60vh;
+        }
+        .Fifthsection h1 {
+            font-size: 1.9rem;
+        }
+
+        p {
+            padding: 20px;
+            margin: 20px 20px;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Abhishek's portfolio 👨🏻</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#one">My academics</a></li>
+                    <li><a href="#two">Achievements & Rewards</a></li>
+                    <li><a href="#three">Skills</a></li>
+                    <li><a href="#four">Career Goals</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hey, My name is <span class="purple">Abhishek</span>
+                <div>
+                    and I am a very passionate
+                </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+
+
+            </div>
+            <div class="rightsection">
+                <img src="ff.png" alt="">
+            </div>
+        </section>
+        <hr id="one">
+        <section class="secondsection">
+            <span class="text-gray">
+                What I have done so far
+            </span>
+            <h1>My Academics 👀 </h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-pop" src="html.png" alt="">
+                    <div class="verticle-title">
+                        ssc ranker (2020)
+                    </div>
+                    <div class="vertical-desc">
+                        I was in 10th standard in 2020 and its was not easy to bring such percentage with lots of
+                        pressure was not easy . The papers was not easy as it was told but with all those adverse
+                        conditions , I have scored 82.20 % .
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-pop" src="ht.png" alt="">
+                    <div class="verticle-title">
+                        hsc ranker (2022)
+                    </div>
+                    <div class="vertical-desc">
+                        Now , Once again its the boards which was not going to easy it's going to be more harder than
+                        ssc's but with the science I have scored 72.00 % and ranked 3rd in the whole clg from science
+                        stream.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-pop" src="fb.png" alt="">
+                    <div class="verticle-title">
+                        bscit (first year - 2023)
+                    </div>
+                    <div class="vertical-desc">
+                        In this also I have scored a very good pointers as 8.9 and 8.4 respectively. Ranked 1st and 5th
+                        in the class.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-pop" src="insta.png" alt="">
+                    <div class="verticle-title">
+                        bscit (Second year - 2024)
+                    </div>
+                    <div class="vertical-desc">
+                        In this also I have scored a very good pointers as 9.3 and 9.6 respectively. Ranked 1st and 2nd
+                        in the class.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-pop" src="js.png" alt="">
+                    <div class="verticle-title">
+                        bscit (third year - 2025)
+                    </div>
+                    <div class="vertical-desc">
+                        In this also I have scored a very good pointers as 9.8 and surely this time too respectively.
+                        Ranked 1st and not decided yet in the class.
+                    </div>
+                </div>
+        </section>
+        <hr id="two">
+        <section class="Thirdsection">
+            <span class="text-gray">
+                What I have gain so far
+            </span>
+            <h1>My Achievements & Rewards 🏆 </h1>
+
+            <ul type="bullets">
+                <p>As I was a very good performer in academics and inOngoing lec I was rewarded as the volunteer of the
+                    class since my childhood ✓ .</p>
+                <p>As the time goes I was very more excellent I gotted the reward of becoming the captain of my house in
+                    schools.🏅</p>
+                <p>I have gotted many more rewards for sports enthusiasm and the volunteering in events ‼.</p>
+            </ul>
+        </section>
+        <hr id="three">
+        <section class="Fourthsection">
+            <span class="text-gray">
+                What I have 
+            </span>
+            <h1>Skills</h1>
+            <div class="skill">
+            <p>I can build very good websites using html ,    css and javascript</p>
+            <p>very good time manager</p>
+            <p>A very Quick Learner</p>
+        </div>
+        </section>
+        <hr id="four">
+        <section class="Fifthsection">
+            <span class="text-gray">
+                 what I want
+            </span>
+            <h1>career Goals </h1>
+        <p>I wanna be a very good Software Developer.</p>
+        <p>learning and carrying some unique skills.</p>
+        <p> Always being hungry and continuous Learner about everything </p>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h1>Abhishek Developer portfolio</h1>
+            </div>
+            <div class="footer-Second">
+                <ul>
+                    <li>home</li>
+                    <li>about</li>
+                    <li>contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer-Third">
+                <ul>
+                    <li>home</li>
+                    <li>about</li>
+                    <li>contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer-Four">
+                <ul>
+                    <li>home</li>
+                    <li>about</li>
+                    <li>contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center">
+            Copyright &#169;abhisheksportfolio.com | All rights Reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var typed = new Typed('#element', {
+                strings: ['Student', 'Learner', 'Website developer', 'Video Editor'],
+                typeSpeed: 50,
+                backSpeed: 50,
+                loop: true
+            });
+        });
+    </script>
+
+</body>
+
+</html>
